@@ -24,3 +24,4 @@ class App < Sinatra::Base
       "#{@total}"
   end
 end
+end
