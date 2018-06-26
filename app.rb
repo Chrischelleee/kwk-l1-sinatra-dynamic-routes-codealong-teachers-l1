@@ -23,3 +23,4 @@ class App < Sinatra::Base
       @total = params[:number1].to_i * params[:number2].to_i
       "#{@total}"
   end
+end
